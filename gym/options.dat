@@ -1,0 +1,195 @@
+a:4:{s:8:"template";s:7:"arrival";s:4:"mods";a:13:{i:0;b:0;s:18:"nav_menu_locations";a:0:{}s:18:"custom_css_post_id";i:19;s:24:"arrival_site_header_type";s:6:"custom";s:35:"arrival_site_header_custom_template";i:6;s:16:"background_color";s:6:"ffffff";s:24:"arrival_site_footer_type";s:6:"custom";s:35:"arrival_site_footer_custom_template";i:175;s:25:"arrival_sticky_ftr_height";s:3:"400";s:19:"arrival_theme_color";s:7:"#fcff18";s:24:"arrival_link_color_hover";s:7:"#fcff18";s:23:"arrival_preloader_color";s:7:"#fcff18";s:11:"custom_logo";i:406;}s:7:"options";a:2:{s:9:"site_icon";s:1:"0";s:23:"nav_menus_created_posts";a:0:{}}s:6:"wp_css";s:3759:".elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title {
+    margin-top: 0;
+}
+span.text-bg {
+    background-color: #fcff18;
+    padding: 0 5px;
+}
+.countdown-custom .elementor-counter-number-wrapper {
+    background-color: #fcff18;
+}
+.featured-item>.elementor-column-wrap:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 25px solid #fcff18;
+    border-left: 25px solid transparent;
+    position: absolute;
+    right: 7px;
+    top: 7px;
+}
+.image-shape:before {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    left: 10%;
+    bottom: -20%;
+    border: 15px solid #fcff18;
+    z-index: 0;
+}
+
+.image-shape img{
+    position: relative;
+    z-index: 1;
+}
+/*------------------
+contact us
+-------------------*/
+.form-group {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.form-inline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form-inline .form-group {
+    width: calc(50% - 15px);
+}
+
+input:not([type="submit"]), 
+select, 
+textarea {
+    width: 100%;
+	font-size: 16px;
+}
+.bmi-form input:not([type="submit"]), 
+.bmi-form select, 
+.bmi-form textarea {
+    width: 100%;
+	font-size: 16px;
+	border: 0!important;
+    border-bottom: 1px solid #ffffff!important;
+    border-radius: 0px;
+    background-color: transparent;
+    color: #636363;
+	transition: all 0.3s ease-in-out;
+}
+
+.bmi-form  input::placeholder, 
+.bmi-form  select::placeholder, 
+.bmi-form  textarea::placeholder{
+	color: #fff;
+}
+input[type="button"],
+input[type="submit"]{
+	width: auto;
+	color: #343434!important;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 20px 40px;
+	border-radius: 0;
+}
+input[type="radio"]{
+	width: auto!important;
+	height: auto;
+}
+
+.bmi-form input[type="radio"] + span.wpcf7-list-item-label{
+	color: #fff!important;
+}
+.bmi-form .wpcf7-list-item{
+	margin-top: 10px;
+}
+.form-bmi  input:focus, 
+.form-bmi  select:focus, 
+.form-bmi  textarea:focus {
+    border-bottom: 1px solid #FCFF18!important;
+}
+
+.form-bmi  input, 
+.form-bmi  select {
+    height: 50px;
+}
+
+.form-bmi  textarea{
+	height: 150px;
+}
+span.wpcf7-not-valid-tip {
+    font-size: 14px;
+}
+
+.wpcf7-response-output {
+    margin: 0;
+    padding: 9px;
+    font-size: 14px;
+    text-align: center;
+    border: 0;
+}
+.wpcf7-response-output.wpcf7-validation-errors {
+    background-color: #ff8e8e;
+    color: #fff;
+}
+.wpcf7-response-output.wpcf7-mail-sent-ok {
+    background: #b9eda2;
+    color: #fff;
+}
+form.wpcf7-form p {
+    position: relative;
+}
+form.wpcf7-form p span.ajax-loader {
+    position: absolute;
+    left: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/*-----------
+footer newsletter
+-------------*/
+.footer-newsletter {
+    display: flex;
+}
+
+.footer-newsletter label {
+    width: 60%;
+}
+
+.footer-newsletter label input {
+    width: 100%;
+    background-color: #fff;
+    border: 0;
+    height: 40px;
+    border-radius: 0;
+    font-size: 14px;
+}
+
+.footer-newsletter input[type="submit"] {
+    width: 40%;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 0;
+    height: 40px;
+    padding: 0;
+    transition: all 0.3s ease-in-out;
+		background-color: #FCFF18;
+	color: #353535!important;
+}
+.footer-newsletter input[type="submit"]:hover {
+	background-color: #fff;
+}
+.elementor-image-box-content h3 {
+    margin-top: 0;
+}
+.counter-about span.elementor-counter-number-suffix {
+    color: #ffc72d;
+}
+@media (max-width: 575px){
+	.form-inline .form-group {
+			width: calc(100% - 0px);
+	}
+	.bmi-form nput[type="button"],
+.bmi-form input[type="submit"]{
+		font-size: 14px;
+		padding:15px 30px;
+	}
+	.bmi-form input:not([type="submit"]), 
+	.bmi-form select, 
+	.bmi-form textarea {
+		font-size: 14px;
+	}
+		.bmi-form input[type="radio"] + span.wpcf7-list-item-label{
+		font-size: 14px;;
+	}
+}";}

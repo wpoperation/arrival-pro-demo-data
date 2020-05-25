@@ -1,0 +1,141 @@
+a:4:{s:8:"template";s:7:"arrival";s:4:"mods";a:19:{i:0;b:0;s:18:"nav_menu_locations";a:1:{s:7:"primary";i:3;}s:18:"custom_css_post_id";i:121;s:25:"arrival_top_header_enable";s:3:"off";s:30:"arrival_main_nav_right_content";s:4:"none";s:22:"arrival_one_page_menus";s:3:"yes";s:16:"menu_font_family";s:7:"Poppins";s:16:"menu_font_weight";s:3:"500";s:14:"menu_font_size";s:2:"14";s:27:"arrival_main_nav_menu_color";s:7:"#333333";s:33:"arrival_transparent_header_enable";b:0;s:39:"arrival_main_nav_menu_color_transparent";s:7:"#ffffff";s:16:"background_color";s:6:"ffffff";s:19:"arrival_theme_color";s:7:"#ce8272";s:24:"arrival_site_footer_type";s:6:"custom";s:35:"arrival_site_footer_custom_template";i:240;s:24:"arrival_link_color_hover";s:7:"#ce8272";s:11:"custom_logo";i:257;s:16:"header_textcolor";s:5:"blank";}s:7:"options";a:2:{s:9:"site_icon";s:1:"0";s:23:"nav_menus_created_posts";a:0:{}}s:6:"wp_css";s:2725:".wedding-countdown ul#aea-countdown-1bf8c6b li.aea-countdown-item:nth-child(even)>div {
+    background-color: #CE8272!important;
+}
+.wedding-section>.elementor-container:before {
+    content: "";
+    background-color: #fff;
+    width: 1000%;
+    height: 100%;
+    position: absolute;
+    right: inherit;
+    left: -1000%;
+    top: 0;
+}
+.wedding-section>.elementor-container:after {
+    content: "";
+    background-color: #CE8272;
+    width: 1000%;
+    height: 100%;
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+/*------------------
+contact us
+-------------------*/
+.form-group {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.form-inline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form-inline .form-group {
+    width: calc(50% - 15px);
+}
+
+input:not([type="submit"]), 
+select, 
+textarea {
+    font-family: "Cormorant", Sans-serif;
+    width: 100%;
+	font-size: 16px;
+	border: 0!important;
+    border-bottom: 1px solid #e1e1e1!important;
+    border-radius: 0px;
+    background-color: transparent;
+    color: #c78665;
+	padding: 0;
+	font-style: italic;
+	font-size: 18px;
+	transition: all 0.3s ease-in-out;
+}
+input:not([type="submit"]):focus, 
+select:focus, 
+textarea:focus{
+    border-bottom: 1px solid #c78665!important;
+}
+span.wpcf7-form-control.wpcf7-radio span.wpcf7-list-item {
+    width: 100%;
+    margin: 0;
+}
+span.wpcf7-list-item-label {
+    font-family: "Cormorant", Sans-serif;
+    font-size: 18px;
+	font-style: italic;
+    color: #c78665;
+}
+input::placeholder, 
+select::placeholder, 
+textarea::placeholder{
+	color: #c78665;
+}
+input[type="button"],
+input[type="submit"]{
+    font-family: "Cormorant", Sans-serif;
+	width: auto;
+	height: auto;
+	color: #fff!important;
+	background-color: #c78665;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 20px 60px;
+	border-radius: 0;
+	font-style: italic;
+}
+input[type="radio"]{
+	width: auto!important;
+	height: auto;
+}
+
+.bmi-form input[type="radio"] + span.wpcf7-list-item-label{
+	color: #fff!important;
+}
+.wpcf7-list-item{
+	margin-top: 10px;
+}
+input:focus, 
+select:focus, 
+textarea:focus {
+    border-bottom: 1px solid #FCFF18!important;
+}
+
+input, 
+select {
+    height: 40px;
+}
+
+textarea{
+	height: 150px;
+}
+span.wpcf7-not-valid-tip {
+    font-size: 14px;
+}
+
+.wpcf7-response-output {
+    margin: 0;
+    padding: 9px;
+    font-size: 14px;
+    text-align: center;
+    border: 0;
+}
+.wpcf7-response-output.wpcf7-validation-errors {
+    background-color: #ff8e8e;
+    color: #fff;
+}
+.wpcf7-response-output.wpcf7-mail-sent-ok {
+    background: #b9eda2;
+    color: #fff;
+}
+form.wpcf7-form p {
+    position: relative;
+}
+form.wpcf7-form p span.ajax-loader {
+    position: absolute;
+    left: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+}";}
